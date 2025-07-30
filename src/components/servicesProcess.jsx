@@ -88,7 +88,7 @@ const ServicesProcess = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="group  flex-1 hover:flex-[1.5] transition-all duration-300 border border-neutral-900 p-7 rounded-md  bg-[#000000] hover:bg-[#181818] h-[450px]"
+              className="group flex flex-col justify-between flex-1 hover:flex-[1.5] transition-all duration-300 border border-neutral-900 p-7 rounded-md  bg-[#000000] hover:bg-[#181818] h-[450px]"
             >
               <div className="mb-6">{step.icon}</div>
               <div>
