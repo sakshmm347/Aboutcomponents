@@ -6,6 +6,7 @@ import Aboutheader from './components/Aboutheader'
 import Aboutadvantage from './components/Aboutadvantage'
 import ServicesProcess from './components/servicesProcess'
 import ServicesProblem from './components/servicesProblem-solving'
+import WebAppDevelopment from './components/servicesSteps'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
    <Aboutadvantage/>
    <ServicesProcess/>
    <ServicesProblem/>
+   <WebAppDevelopment/>
    
     </>
   )

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const images = [
   "https://cdn.prod.website-files.com/67c3581ddb64922e2ab65814/67dc04be0470e5703fc3fba2_Rectangle%201000001697.avif",
   "https://cdn.prod.website-files.com/67c3581ddb64922e2ab65814/67dc04beb195025aaa652a8c_image.avif",
@@ -84,7 +85,7 @@ const Aboutheader = () => {
         {images.map((imgSrc, index) => (
           <div
             key={index}
-            className={`w-full md:w-[calc(50%-8px)] overflow-hidden rounded-lg ${
+            className={`w-full md:w-[calc(50%-8px)] h-full overflow-hidden rounded-lg ${
               index === 1 ? "md:mt-17" : ""
             }`}
             style={{ position: "relative" }}
