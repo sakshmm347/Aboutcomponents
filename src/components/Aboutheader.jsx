@@ -81,7 +81,7 @@ const Aboutheader = () => {
       </div>
 
       {/* Image Flexbox Grid */}
-      <div className="max-w-[1300px] mx-auto mt-20 flex flex-wrap gap-4">
+      <div className="md:w-[1300px] mx-auto mt-20 flex flex-wrap gap-4">
         {images.map((imgSrc, index) => (
           <div
             key={index}
