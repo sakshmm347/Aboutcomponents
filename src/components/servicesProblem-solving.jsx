@@ -22,7 +22,7 @@ const ServicesProblem = () => {
       {/* Image Flexbox Grid */}
        <div className="flex flex-col md:flex-row min-h-[500px] max-w-[1300px] mx-auto bg-black text-white gap-5 ">
   {/* Left Text Box */}
-  <div className="flex  flex-col justify-between max-w-[350px] bg-zinc-900 p-10 rounded-lg ">
+  <div className="flex  flex-col justify-between max-w-[350px] min-w-[180px] bg-zinc-900 p-10 rounded-lg ">
     <h1 className="text-[24px] font-semibold mb-4">
       Track, Analyze, and Enhance Performance Effectively
     </h1>
@@ -32,7 +32,7 @@ const ServicesProblem = () => {
   </div>
 
   {/* Image Box */}
-  <div className="flex min-w-[350px] max-w-[600px] overflow-hidden pr-4 md:pr-0  rounded-lg ">
+  <div className="flex min-w-[300px] max-w-[600px] overflow-hidden  rounded-lg ">
     <img
         src="https://cdn.prod.website-files.com/67c3581ddb64922e2ab65814/67fc05b272374329ae13f86a_medium-shot-smiley-man-recording-podcast_25811191.htm%23from_element%3Ddetail_alsolike.avif"
         alt="Podcast Man"
@@ -42,7 +42,7 @@ const ServicesProblem = () => {
   </div>
 
   {/* Right Text Box */}
-  <div className="flex flex-col justify-between max-w-[350px] bg-zinc-900 p-10 rounded-lg">
+  <div className="flex flex-col justify-between max-w-[350px] min-w-[180px] bg-zinc-900 p-10 rounded-lg">
     <h1 className="text-[24px] font-semibold mb-4">
       Dedicated to Providing Superior Customer Assistance
     </h1>
