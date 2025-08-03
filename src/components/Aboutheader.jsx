@@ -81,11 +81,11 @@ const Aboutheader = () => {
       </div>
 
       {/* Image Flexbox Grid */}
-      <div className="md:w-[1300px] mx-auto mt-20 flex flex-wrap gap-4">
+      <div className="max-w-[1300px]  mx-auto mt-20 flex flex-wrap gap-4">
         {images.map((imgSrc, index) => (
           <div
             key={index}
-            className={`w-full md:w-[calc(50%-8px)] h-fit overflow-hidden rounded-lg ${
+            className={`w-full md:w-[calc(50%-8px)] overflow-hidden rounded-lg ${
               index === 1 ? "md:mt-17" : ""
             }`}
             style={{ position: "relative" }}
