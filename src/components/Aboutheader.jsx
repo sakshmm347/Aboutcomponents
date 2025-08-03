@@ -81,11 +81,11 @@ const Aboutheader = () => {
       </div>
 
       {/* Image Flexbox Grid */}
-      <div className="max-w-[1300px]  mx-auto mt-20 flex flex-wrap gap-4">
+      <div className="max-w-[1300px] mx-auto mt-20 flex flex-wrap gap-4">
         {images.map((imgSrc, index) => (
           <div
             key={index}
-            className={`w-full md:w-[calc(50%-8px)] overflow-hidden rounded-lg ${
+            className={`w-[100%]  md:w-[calc(50%-8px)] h-fit overflow-hidden rounded-lg ${
               index === 1 ? "md:mt-17" : ""
             }`}
             style={{ position: "relative" }}
@@ -93,7 +93,7 @@ const Aboutheader = () => {
             <img
               src={imgSrc}
               alt={`Gallery image ${index + 1}`}
-              className={`w-full h-fit object-cover transition-transform duration-400 hover:scale-110 rounded-lg ${
+              className={` transition-transform duration-400 hover:scale-110 rounded-lg ${
                 index === 4 ? "md:ml-auto md:w-[48%]" : ""
               }`}
             />
