@@ -85,7 +85,7 @@ const Aboutheader = () => {
         {images.map((imgSrc, index) => (
           <div
             key={index}
-            className={`w-[100%]  md:w-[calc(50%-8px)] h-fit overflow-hidden rounded-lg ${
+            className={`  md:w-[calc(50%-8px)] h-fit overflow-hidden rounded-lg ${
               index === 1 ? "md:mt-17" : ""
             }`}
             style={{ position: "relative" }}
